@@ -13,6 +13,9 @@
 		076029022BA811E500E178F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076029012BA811E500E178F3 /* Preview Assets.xcassets */; };
 		076029042BA811E500E178F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029032BA811E500E178F3 /* Persistence.swift */; };
 		076029072BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 076029052BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld */; };
+		0760290E2BB1FD5F00E178F3 /* TeeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760290D2BB1FD5F00E178F3 /* TeeListView.swift */; };
+		076029102BB1FDC700E178F3 /* UserAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760290F2BB1FDC700E178F3 /* UserAccountView.swift */; };
+		076029122BB1FE0400E178F3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029112BB1FE0400E178F3 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		076029012BA811E500E178F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		076029032BA811E500E178F3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		076029062BA811E500E178F3 /* iOS_CW1_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_CW1_Project.xcdatamodel; sourceTree = "<group>"; };
+		0760290D2BB1FD5F00E178F3 /* TeeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeListView.swift; sourceTree = "<group>"; };
+		0760290F2BB1FDC700E178F3 /* UserAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountView.swift; sourceTree = "<group>"; };
+		076029112BB1FE0400E178F3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 		076028F92BA811E400E178F3 /* iOS_CW1_Project */ = {
 			isa = PBXGroup;
 			children = (
+				076029152BB201A500E178F3 /* ViewModel */,
+				076029132BB1FF4300E178F3 /* Model */,
 				076028FA2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift */,
 				076028FC2BA811E400E178F3 /* ChanmacTabView.swift */,
+				076029142BB1FF8000E178F3 /* View */,
 				076028FE2BA811E500E178F3 /* Assets.xcassets */,
 				076029032BA811E500E178F3 /* Persistence.swift */,
 				076029052BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld */,
@@ -71,6 +80,30 @@
 				076029012BA811E500E178F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		076029132BB1FF4300E178F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		076029142BB1FF8000E178F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0760290D2BB1FD5F00E178F3 /* TeeListView.swift */,
+				0760290F2BB1FDC700E178F3 /* UserAccountView.swift */,
+				076029112BB1FE0400E178F3 /* CartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		076029152BB201A500E178F3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,8 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0760290E2BB1FD5F00E178F3 /* TeeListView.swift in Sources */,
+				076029122BB1FE0400E178F3 /* CartView.swift in Sources */,
 				076029042BA811E500E178F3 /* Persistence.swift in Sources */,
 				076028FD2BA811E400E178F3 /* ChanmacTabView.swift in Sources */,
+				076029102BB1FDC700E178F3 /* UserAccountView.swift in Sources */,
 				076028FB2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift in Sources */,
 				076029072BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld in Sources */,
 			);
