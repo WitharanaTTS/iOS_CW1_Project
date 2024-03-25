@@ -15,7 +15,7 @@ struct iOS_CW1_ProjectApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ChanmacTabView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

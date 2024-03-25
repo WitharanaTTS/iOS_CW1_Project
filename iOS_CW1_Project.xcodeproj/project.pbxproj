@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		076028FB2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076028FA2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift */; };
-		076028FD2BA811E400E178F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076028FC2BA811E400E178F3 /* ContentView.swift */; };
+		076028FD2BA811E400E178F3 /* ChanmacTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076028FC2BA811E400E178F3 /* ChanmacTabView.swift */; };
 		076028FF2BA811E500E178F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076028FE2BA811E500E178F3 /* Assets.xcassets */; };
 		076029022BA811E500E178F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076029012BA811E500E178F3 /* Preview Assets.xcassets */; };
 		076029042BA811E500E178F3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029032BA811E500E178F3 /* Persistence.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		076028F72BA811E400E178F3 /* iOS_CW1_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_CW1_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076028FA2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_CW1_ProjectApp.swift; sourceTree = "<group>"; };
-		076028FC2BA811E400E178F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		076028FC2BA811E400E178F3 /* ChanmacTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanmacTabView.swift; sourceTree = "<group>"; };
 		076028FE2BA811E500E178F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076029012BA811E500E178F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		076029032BA811E500E178F3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				076028FA2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift */,
-				076028FC2BA811E400E178F3 /* ContentView.swift */,
+				076028FC2BA811E400E178F3 /* ChanmacTabView.swift */,
 				076028FE2BA811E500E178F3 /* Assets.xcassets */,
 				076029032BA811E500E178F3 /* Persistence.swift */,
 				076029052BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld */,
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				076029042BA811E500E178F3 /* Persistence.swift in Sources */,
-				076028FD2BA811E400E178F3 /* ContentView.swift in Sources */,
+				076028FD2BA811E400E178F3 /* ChanmacTabView.swift in Sources */,
 				076028FB2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift in Sources */,
 				076029072BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld in Sources */,
 			);
