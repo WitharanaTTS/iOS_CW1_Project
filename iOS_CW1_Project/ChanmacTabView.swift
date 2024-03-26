@@ -18,9 +18,23 @@ struct ChanmacTabView: View {
     
     var body: some View {
         TabView{
-            Text("Test")
-                .padding()
+            TeeListView()
+                .tabItem{
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            UserAccountView()
+                .tabItem{
+                    Image(systemName: "person")
+                    Text("Profile")
+                }
+            CartView()
+                .tabItem{
+                    Image(systemName: "cart")
+                    Text("Cart")
+                }
         }
+        .accentColor(Color("BrandPrimary"))
     }
     
     struct ContentView_Previews: PreviewProvider {

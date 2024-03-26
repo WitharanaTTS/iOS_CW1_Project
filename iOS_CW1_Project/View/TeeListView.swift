@@ -9,7 +9,10 @@ import SwiftUI
 
 struct TeeListView: View {
     var body: some View {
-        Text("T-Shirt List view")
+        NavigationView{
+            Text("T-Shirt List view")
+                .navigationTitle("Just for You")
+        }
     }
 }
 

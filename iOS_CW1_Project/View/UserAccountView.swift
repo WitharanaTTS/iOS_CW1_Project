@@ -9,7 +9,10 @@ import SwiftUI
 
 struct UserAccountView: View {
     var body: some View {
-        Text("User Account View")
+        NavigationView{
+            Text("User Profile view")
+                .navigationTitle("Account")
+        }
     }
 }
 
