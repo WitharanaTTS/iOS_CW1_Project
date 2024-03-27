@@ -9,14 +9,11 @@ import SwiftUI
 
 @main
 struct iOS_CW1_ProjectApp: App {
-    let persistenceController = PersistenceController.shared
 
-    let test = 0
     
     var body: some Scene {
         WindowGroup {
             ChanmacTabView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

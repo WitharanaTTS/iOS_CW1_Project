@@ -10,8 +10,10 @@ import SwiftUI
 struct TeeListView: View {
     var body: some View {
         NavigationView{
-            Text("T-Shirt List view")
-                .navigationTitle("Just for You")
+            List(TeeData.tees){ tee in
+                TeeListCell(tee:tee)
+            }
+            .navigationTitle("Just for You")
         }
     }
 }
