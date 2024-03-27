@@ -15,8 +15,8 @@ struct Tee:Decodable, Identifiable{
     let img:String
 }
 
-struct TeeRespose{
-    let request: [Tee]
+struct TeeRespose: Decodable{
+    let TeeRequest: [Tee]
 }
 
 struct TeeData{

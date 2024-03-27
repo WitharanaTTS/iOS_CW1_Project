@@ -18,6 +18,8 @@
 		076029122BB1FE0400E178F3 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029112BB1FE0400E178F3 /* CartView.swift */; };
 		076029172BB3A69100E178F3 /* Tee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029162BB3A69100E178F3 /* Tee.swift */; };
 		076029192BB3B18100E178F3 /* TeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076029182BB3B18100E178F3 /* TeeListCell.swift */; };
+		0760291B2BB3B37F00E178F3 /* BackendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760291A2BB3B37F00E178F3 /* BackendManager.swift */; };
+		0760291E2BB3B68800E178F3 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0760291D2BB3B68800E178F3 /* ErrorHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		076029112BB1FE0400E178F3 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		076029162BB3A69100E178F3 /* Tee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tee.swift; sourceTree = "<group>"; };
 		076029182BB3B18100E178F3 /* TeeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeListCell.swift; sourceTree = "<group>"; };
+		0760291A2BB3B37F00E178F3 /* BackendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendManager.swift; sourceTree = "<group>"; };
+		0760291D2BB3B68800E178F3 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				076029152BB201A500E178F3 /* ViewModel */,
 				076029132BB1FF4300E178F3 /* Model */,
 				076028FA2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift */,
+				0760291A2BB3B37F00E178F3 /* BackendManager.swift */,
+				0760291D2BB3B68800E178F3 /* ErrorHandler.swift */,
 				076028FC2BA811E400E178F3 /* ChanmacTabView.swift */,
 				076029142BB1FF8000E178F3 /* View */,
 				076028FE2BA811E500E178F3 /* Assets.xcassets */,
@@ -186,8 +192,10 @@
 				076029192BB3B18100E178F3 /* TeeListCell.swift in Sources */,
 				076029122BB1FE0400E178F3 /* CartView.swift in Sources */,
 				076029172BB3A69100E178F3 /* Tee.swift in Sources */,
+				0760291E2BB3B68800E178F3 /* ErrorHandler.swift in Sources */,
 				076029042BA811E500E178F3 /* Persistence.swift in Sources */,
 				076028FD2BA811E400E178F3 /* ChanmacTabView.swift in Sources */,
+				0760291B2BB3B37F00E178F3 /* BackendManager.swift in Sources */,
 				076029102BB1FDC700E178F3 /* UserAccountView.swift in Sources */,
 				076028FB2BA811E400E178F3 /* iOS_CW1_ProjectApp.swift in Sources */,
 				076029072BA811E500E178F3 /* iOS_CW1_Project.xcdatamodeld in Sources */,
