@@ -8,12 +8,30 @@
 import SwiftUI
 
 struct TeeListView: View {
+    
+    @State private var tees:[Tee] = []
     var body: some View {
         NavigationView{
-            List(TeeData.tees){ tee in
+            List(tees){ tee in
                 TeeListCell(tee:tee)
             }
             .navigationTitle("Just for You")
+        }
+        .onAppear{
+            getTees()
+        }
+    }
+    
+    func getTees(){
+        BackendManager.shared.getTees{ result in
+            DispatchQueue.main.async {
+                switch result{
+                case .success(let tees):
+                    self.tees = tees
+                case .failure(let error):
+                    print(error.localizedDescription)
+                }
+            }
         }
     }
 }
